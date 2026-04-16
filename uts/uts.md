@@ -10,6 +10,16 @@
 5. Gunakan aplikasi SFTP (seperti FileZilla atau WinSCP)
 ![alt text](<Screenshot 2026-04-16 171512.png>)
 6. Pindahkan source code tersebut ke Document Root Nginx/Apache (biasanya di /var/www/html).
+
+Screenshot halaman utama AWS EC2 Console (menunjukkan Instance ID, status Running, dan Elastic IP).
+![alt text](image-3.png)
+Screenshot halaman Security Group Inbound Rules (menunjukkan Port 22 hanya diakses oleh My IP).
+![alt text](image-4.png)
+Screenshot halaman CloudWatch Alarms (menunjukkan alarm CPU berstatus OK atau hijau).
+![alt text](image-5.png)
+Screenshot Terminal/PuTTY saat Anda berhasil mengeksekusi perintah sudo systemctl status nginx.
+![alt text](image-6.png)
+
 7. Tampilan nya
 ![alt text](image.png)
 ![alt text](image-1.png)
