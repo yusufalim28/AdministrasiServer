@@ -1,0 +1,66 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.admin-sidebar {
+  width: 280px;
+  background-color: white;
+  border-right: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
+}
+
+.admin-link {
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.admin-link:hover, .admin-link.active {
+  background: var(--card-hover-bg);
+  color: var(--primary-blue);
+}
+
+.admin-main {
+  flex-grow: 1;
+  padding: 3rem;
+  max-width: calc(100vw - 280px);
+}
+
+/* Data Table / List Styles for Admin */
+.admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.admin-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 0.5rem;
+}
